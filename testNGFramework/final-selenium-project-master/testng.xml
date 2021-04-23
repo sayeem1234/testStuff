@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="classes" thread-count="2">
+    <test thread-count="2"
+          name="/Users/Fayeem/Desktop/testNGFramework/final-selenium-project-master/src/test/java/test_scripts/sampleAppBrowser.java">
+        <classes>
+            <class name="test_scripts.sampleAppBrowser">
+                <methods>
+                    <include name="FrictionlessFlow_01"/>
+                    <include name="FrictionlessFlow_02QA1"/>
+                    <include name="FrictionlessFlow_02QA9"/>
+                    <include name="DBC_02"/>
+                    <include name="DBC_02QA16"/>
+                    <include name="DBC_03"/>
+                    <include name="DBC_03QA16"/>
+                    <include name="DBC_08and09"/>
+                    <include name="DBC_08and09QA16"/>
+                    <include name="CC_02"/>
+                    <include name="CC_02QA13"/>
+                    <include name="CC_02i"/>
+                    <include name="CC_02iQA14"/>
+                    <include name="CC_02ii"/>
+                    <include name="CC_02iiQA15"/>
+                    <include name="CC_3"/>
+                    <include name="SCA_02"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
